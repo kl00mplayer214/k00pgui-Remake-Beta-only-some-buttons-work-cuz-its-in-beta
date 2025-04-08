@@ -1,0 +1,1325 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local lead = Instance.new("TextButton")
+local canada = Instance.new("TextButton")
+local log = Instance.new("TextButton")
+local shut = Instance.new("TextButton")
+local musicbypas10 = Instance.new("TextButton")
+local musicbypas9 = Instance.new("TextButton")
+local musicbypas8 = Instance.new("TextButton")
+local musicbypas7 = Instance.new("TextButton")
+local meme = Instance.new("TextButton")
+local gametp = Instance.new("TextButton")
+local mesh = Instance.new("TextButton")
+local ball = Instance.new("TextButton")
+local loud = Instance.new("TextButton")
+local music = Instance.new("TextButton")
+local musicbypas = Instance.new("TextButton")
+local musicbypas2 = Instance.new("TextButton")
+local musicbypas3 = Instance.new("TextButton")
+local musicbypas4 = Instance.new("TextButton")
+local musicbypas5 = Instance.new("TextButton")
+local message = Instance.new("TextButton")
+local infYield = Instance.new("TextButton")
+local k00pk00p = Instance.new("TextButton")
+local musicbypas6 = Instance.new("TextButton")
+local kaax = Instance.new("TextButton")
+local gravityhammer = Instance.new("TextButton")
+local Destroy = Instance.new("TextButton")
+local kick = Instance.new("TextButton")
+local thomas = Instance.new("TextButton")
+local theme = Instance.new("TextButton")
+local antileave = Instance.new("TextButton")
+local eses = Instance.new("TextButton")
+local dreemy = Instance.new("TextButton")
+local shamsterky = Instance.new("TextButton")
+local sky2 = Instance.new("TextButton")
+local parts2 = Instance.new("TextButton")
+local antiban = Instance.new("TextButton")
+local randcol = Instance.new("TextButton")
+local unanchor = Instance.new("TextButton")
+local toad = Instance.new("TextButton")
+local sky = Instance.new("TextButton")
+local shut_2 = Instance.new("TextButton")
+local realm = Instance.new("TextButton")
+local rain = Instance.new("TextButton")
+local r6 = Instance.new("TextButton")
+local parts = Instance.new("TextButton")
+local shed = Instance.new("TextButton")
+local john = Instance.new("TextButton")
+local kill = Instance.new("TextButton")
+local jump = Instance.new("TextButton")
+local hint = Instance.new("TextButton")
+local exploudh = Instance.new("TextButton")
+local disco = Instance.new("TextButton")
+local decal = Instance.new("TextButton")
+local _666 = Instance.new("TextButton")
+local kooprain = Instance.new("TextButton")
+local xray = Instance.new("TextButton")
+local spin = Instance.new("TextButton")
+local looped = Instance.new("TextButton")
+local coffee = Instance.new("TextButton")
+local avatar = Instance.new("TextButton")
+local stop = Instance.new("TextButton")
+local distort = Instance.new("TextButton")
+local reverb = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(1, 53, 10)
+Frame.BorderSizePixel = 5
+Frame.Position = UDim2.new(0.349999994, 0, 0.372000009, 0)
+Frame.Size = UDim2.new(0, 415, 0, 642)
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.Position = UDim2.new(0.0250000004, 0, 0.0219999999, 0)
+ScrollingFrame.Size = UDim2.new(0, 393, 0, 620)
+ScrollingFrame.ScrollBarThickness = 18
+
+TextLabel.Parent = ScrollingFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.272000015, 0, 0.0189999994, 0)
+TextLabel.Size = UDim2.new(0, 170, 0, 32)
+TextLabel.Font = Enum.Font.Arial
+TextLabel.Text = "k00pgui Remake [Beta]"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = TextLabel
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.00465017557, 0, 0.977094233, 0)
+TextLabel_2.Size = UDim2.new(0, 170, 0, 32)
+TextLabel_2.Font = Enum.Font.Arial
+TextLabel_2.Text = "by GoodRc1 and Tr0phykidd"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = TextLabel_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.00700000022, 0, 28.6399994, 0)
+TextLabel_3.Size = UDim2.new(0, 175, 0, 32)
+TextLabel_3.Font = Enum.Font.Arial
+TextLabel_3.Text = "-- Music & Uis/Scripts --"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = TextLabel_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.442408621, 0, 21.7270947, 0)
+TextLabel_4.Size = UDim2.new(0, 170, 0, 14)
+TextLabel_4.Font = Enum.Font.Arial
+TextLabel_4.Text = "by k00pHaxAlt [team k00pkidd]"
+TextLabel_4.TextColor3 = Color3.fromRGB(24, 24, 24)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+lead.Name = "lead"
+lead.Parent = TextLabel_4
+lead.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+lead.BorderColor3 = Color3.fromRGB(0, 53, 11)
+lead.Position = UDim2.new(-0.870999992, 0, -1.5, 0)
+lead.Size = UDim2.new(0, 99, 0, 39)
+lead.Font = Enum.Font.SourceSans
+lead.Text = "YeetGui"
+lead.TextColor3 = Color3.fromRGB(255, 255, 255)
+lead.TextScaled = true
+lead.TextSize = 14.000
+lead.TextWrapped = true
+lead.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gg-mi7/Neco-Scripts/refs/heads/main/BetterFEYeetGUI.lua"))()
+end)
+
+canada.Name = "canada"
+canada.Parent = TextLabel_4
+canada.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+canada.BorderColor3 = Color3.fromRGB(0, 53, 11)
+canada.Position = UDim2.new(-0.224000007, 0, -1.5, 0)
+canada.Size = UDim2.new(0, 99, 0, 39)
+canada.Font = Enum.Font.SourceSans
+canada.Text = "cXyzkidd Destruction"
+canada.TextColor3 = Color3.fromRGB(255, 255, 255)
+canada.TextScaled = true
+canada.TextSize = 14.000
+canada.TextWrapped = true
+canada.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Spdm-Team-Spam-30655"))()
+end)
+
+shut.Name = "shut"
+shut.Parent = TextLabel_4
+shut.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+shut.BorderColor3 = Color3.fromRGB(0, 53, 11)
+shut.Position = UDim2.new(0.75, 0, -52.4290009, 0)
+shut.Size = UDim2.new(0, 53, 0, 24)
+shut.Font = Enum.Font.SourceSans
+shut.Text = "QuirkyCMD"
+shut.TextColor3 = Color3.fromRGB(255, 255, 255)
+shut.TextScaled = true
+shut.TextSize = 14.000
+shut.TextWrapped = true
+shut.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://gist.github.com/someunknowndude/38cecea5be9d75cb743eac8b1eaf6758/raw"))()
+end)
+
+musicbypas10.Name = "music bypas 10"
+musicbypas10.Parent = TextLabel_4
+musicbypas10.Active = false
+musicbypas10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+musicbypas10.BorderColor3 = Color3.fromRGB(0, 53, 11)
+musicbypas10.Position = UDim2.new(-0.259000003, 0, 0, 400)
+musicbypas10.Size = UDim2.new(0, 99, 0, 39)
+musicbypas10.Font = Enum.Font.SourceSans
+musicbypas10.Text = "c00lgui by verfide"
+musicbypas10.TextColor3 = Color3.fromRGB(255, 255, 255)
+musicbypas10.TextScaled = true
+musicbypas10.TextSize = 14.000
+musicbypas10.TextWrapped = true
+musicbypas10.MouseButton1Down:connect(function()
+loastring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-c00lgui-edit-v3-by-verfide-lua-4-32127"))()
+end)
+
+musicbypas9.Name = "music bypas 9"
+musicbypas9.Parent = TextLabel_4
+musicbypas9.Active = false
+musicbypas9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+musicbypas9.BorderColor3 = Color3.fromRGB(0, 53, 11)
+musicbypas9.Position = UDim2.new(0.375999987, 0, 0, 350)
+musicbypas9.Size = UDim2.new(0, 99, 0, 39)
+musicbypas9.Font = Enum.Font.SourceSans
+musicbypas9.Text = "Skrublorz Particals"
+musicbypas9.TextColor3 = Color3.fromRGB(255, 255, 255)
+musicbypas9.TextScaled = true
+musicbypas9.TextSize = 14.000
+musicbypas9.TextWrapped = true
+musicbypas9.MouseButton1Down:connect(function()
+		for i, v in pairs(game.Players:GetChildren()) do
+			emit = Instance.new("ParticleEmitter")
+			emit.Parent = v.Character.Head
+			emit.Texture = "http://www.roblox.com/asset/?id=358313209"
+			emit.VelocitySpread = 358313209
+		end
+	end)
+
+musicbypas8.Name = "music bypas 8"
+musicbypas8.Parent = TextLabel_4
+musicbypas8.Active = false
+musicbypas8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+musicbypas8.BorderColor3 = Color3.fromRGB(0, 53, 11)
+musicbypas8.Position = UDim2.new(-0.259000003, 0, 0, 350)
+musicbypas8.Size = UDim2.new(0, 99, 0, 39)
+musicbypas8.Font = Enum.Font.SourceSans
+musicbypas8.Text = "c00lsploit"
+musicbypas8.TextColor3 = Color3.fromRGB(255, 255, 255)
+musicbypas8.TextScaled = true
+musicbypas8.TextSize = 14.000
+musicbypas8.TextWrapped = true
+musicbypas8.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-C00lsploit-9391"))()
+end)
+
+musicbypas7.Name = "music bypas 7"
+musicbypas7.Parent = TextLabel_4
+musicbypas7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+musicbypas7.BorderColor3 = Color3.fromRGB(0, 53, 11)
+musicbypas7.Position = UDim2.new(-0.875999987, 0, 0, 350)
+musicbypas7.Size = UDim2.new(0, 99, 0, 39)
+musicbypas7.Font = Enum.Font.SourceSans
+musicbypas7.Text = "g00by particals"
+musicbypas7.TextColor3 = Color3.fromRGB(255, 255, 255)
+musicbypas7.TextScaled = true
+musicbypas7.TextSize = 14.000
+musicbypas7.TextWrapped = true
+musicbypas7.MouseButton1Down:connect(function()
+		for i, v in pairs(game.Players:GetChildren()) do
+			emit = Instance.new("ParticleEmitter")
+			emit.Parent = v.Character.Head
+			emit.Texture = "http://www.roblox.com/asset/?id=16139546365"
+			emit.VelocitySpread = 358313209
+		end
+	end)
+
+meme.Name = "meme"
+meme.Parent = TextLabel_4
+meme.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+meme.BorderColor3 = Color3.fromRGB(0, 53, 11)
+meme.Position = UDim2.new(-0.870999992, 0, -5, 0)
+meme.Size = UDim2.new(0, 99, 0, 39)
+meme.Font = Enum.Font.SourceSans
+meme.Text = "Ro-Xploit v6"
+meme.TextColor3 = Color3.fromRGB(255, 255, 255)
+meme.TextScaled = true
+meme.TextSize = 14.000
+meme.TextWrapped = true
+meme.MouseButton1Down:connect(function()
+loadstring(game:GetObjects("rbxassetid://364364477")[1].Source)()
+end)
+
+gametp.Name = "gametp"
+gametp.Parent = TextLabel_4
+gametp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+gametp.BorderColor3 = Color3.fromRGB(0, 53, 11)
+gametp.Position = UDim2.new(0, -39, -5, 0)
+gametp.Size = UDim2.new(0, 209, 0, 39)
+gametp.Font = Enum.Font.SourceSans
+gametp.Text = "Dominus Rain"
+gametp.TextColor3 = Color3.fromRGB(255, 255, 255)
+gametp.TextScaled = true
+gametp.TextSize = 14.000
+gametp.TextWrapped = true
+gametp.MouseButton1Down:connect(function()
+			local part = Instance.new("Part",workspace)
+			part.Name = "Dominus"
+	
+			local mesh = Instance.new("SpecialMesh",part)
+	
+			part.CanCollide = false
+			part.Size = Vector3.new(440,530,380)
+			part.Position = Vector3.new(math.random(-3000,1000),math.random(1,3000),math.random(-3000,3000))
+			part.RotVelocity = Vector3.new(math.random() * math.pi, math.random() * math.pi, math.random() * math.pi)
+	
+			mesh.MeshType = "FileMesh"
+			mesh.Scale = Vector3.new(150,150,150)
+			mesh.MeshId = "rbxassetid://1484148960"
+			mesh.TextureId = "rbxassetid://1484148974"
+end)
+
+mesh.Name = "mesh"
+mesh.Parent = TextLabel_4
+mesh.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mesh.BorderColor3 = Color3.fromRGB(0, 53, 11)
+mesh.Position = UDim2.new(0.418000013, 0, -8.80000019, 0)
+mesh.Size = UDim2.new(0, 99, 0, 39)
+mesh.Font = Enum.Font.SourceSans
+mesh.Text = "Skrublordz Sky"
+mesh.TextColor3 = Color3.fromRGB(255, 255, 255)
+mesh.TextScaled = true
+mesh.TextSize = 14.000
+mesh.TextWrapped = true
+mesh.MouseButton1Down:connect(function()
+s = Instance.new("Sky")
+s.Name = "SKY"
+s.SkyboxBk = "http://www.roblox.com/asset/?id=358313209"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=358313209"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=358313209"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=358313209"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=358313209"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=358313209"
+s.Parent = game.Lighting
+end)
+
+ball.Name = "ball"
+ball.Parent = TextLabel_4
+ball.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ball.BorderColor3 = Color3.fromRGB(0, 53, 11)
+ball.Position = UDim2.new(-0.224000007, 0, -8.80000019, 0)
+ball.Size = UDim2.new(0, 99, 0, 39)
+ball.Font = Enum.Font.SourceSans
+ball.Text = "Ball Rain"
+ball.TextColor3 = Color3.fromRGB(255, 255, 255)
+ball.TextScaled = true
+ball.TextSize = 14.000
+ball.TextWrapped = true
+ball.MouseButton1Down:connect(function()
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			wait()
+			doom=Instance.new("Part")
+			local imnotfat = math.random(1, 3)
+			if imnotfat == 1 then
+				doom.Shape = "Ball"
+			else if imnotfat == 2 then
+					doom.Shape = "Cylinder"
+				else 
+				end end
+			doom.Material = "Neon"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+			yooka=math.random(-200, -50)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, yooka, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, 800, communism)
+			doom.Parent = game.Workspace
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+			communism=math.random(0,3)
+			crex=math.random(3,100)
+			obesity=math.random(-500, 500)
+			positivity=math.random(100, 600)
+			IEndorseThese=math.random(-500, 500)
+			doom=Instance.new("Part")
+			doom.Shape = "Ball"
+			doom.Size = Vector3.new(crex, crex, crex)
+			doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+			doom.Color = Color3.new(math.random(), math.random(), math.random())
+			doom.Velocity=Vector3.new(communism, communism, communism)
+			doom.Parent = game.Workspace
+end)
+
+loud.Name = "loud"
+loud.Parent = TextLabel_4
+loud.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+loud.BorderColor3 = Color3.fromRGB(0, 53, 11)
+loud.Position = UDim2.new(-0.870999992, 0, -8.80000019, 0)
+loud.Size = UDim2.new(0, 99, 0, 39)
+loud.Font = Enum.Font.SourceSans
+loud.Text = "skeleton sky"
+loud.TextColor3 = Color3.fromRGB(255, 255, 255)
+loud.TextScaled = true
+loud.TextSize = 14.000
+loud.TextWrapped = true
+loud.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-skeleton-sky-10383", true))()
+end)
+
+music.Name = "music"
+music.Parent = TextLabel_4
+music.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+music.BorderColor3 = Color3.fromRGB(0, 53, 11)
+music.Position = UDim2.new(-0.882000029, 0, 0, 250)
+music.Size = UDim2.new(0, 99, 0, 39)
+music.Font = Enum.Font.SourceSans
+music.Text = "Hacker City Jumpscare"
+music.TextColor3 = Color3.fromRGB(255, 255, 255)
+music.TextScaled = true
+music.TextSize = 14.000
+music.TextWrapped = true
+
+musicbypas.Name = "music bypas"
+musicbypas.Parent = TextLabel_4
+musicbypas.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+musicbypas.BorderColor3 = Color3.fromRGB(0, 53, 11)
+musicbypas.Position = UDim2.new(-0.259000003, 0, 0, 250)
+musicbypas.Size = UDim2.new(0, 99, 0, 39)
+musicbypas.Font = Enum.Font.SourceSans
+musicbypas.Text = "tubers93 sky"
+musicbypas.TextColor3 = Color3.fromRGB(255, 255, 255)
+musicbypas.TextScaled = true
+musicbypas.TextSize = 14.000
+musicbypas.TextWrapped = true
+
+musicbypas2.Name = "music bypas 2"
+musicbypas2.Parent = TextLabel_4
+musicbypas2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+musicbypas2.BorderColor3 = Color3.fromRGB(0, 53, 11)
+musicbypas2.Position = UDim2.new(0.381999999, 0, 0, 250)
+musicbypas2.Size = UDim2.new(0, 99, 0, 39)
+musicbypas2.Font = Enum.Font.SourceSans
+musicbypas2.Text = "tubers93 Decal"
+musicbypas2.TextColor3 = Color3.fromRGB(255, 255, 255)
+musicbypas2.TextScaled = true
+musicbypas2.TextSize = 14.000
+musicbypas2.TextWrapped = true
+
+musicbypas3.Name = "music bypas 3"
+musicbypas3.Parent = TextLabel_4
+musicbypas3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+musicbypas3.BorderColor3 = Color3.fromRGB(0, 53, 11)
+musicbypas3.Position = UDim2.new(-0.875999987, 0, 0, 300)
+musicbypas3.Size = UDim2.new(0, 99, 0, 39)
+musicbypas3.Font = Enum.Font.SourceSans
+musicbypas3.Text = "Electro Spook"
+musicbypas3.TextColor3 = Color3.fromRGB(255, 255, 255)
+musicbypas3.TextScaled = true
+musicbypas3.TextSize = 14.000
+musicbypas3.TextWrapped = true
+
+musicbypas4.Name = "music bypas 4"
+musicbypas4.Parent = TextLabel_4
+musicbypas4.Active = false
+musicbypas4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+musicbypas4.BorderColor3 = Color3.fromRGB(0, 53, 11)
+musicbypas4.Position = UDim2.new(-0.259000003, 0, 0, 300)
+musicbypas4.Size = UDim2.new(0, 99, 0, 39)
+musicbypas4.Font = Enum.Font.SourceSans
+musicbypas4.Text = "Hint 2"
+musicbypas4.TextColor3 = Color3.fromRGB(255, 255, 255)
+musicbypas4.TextScaled = true
+musicbypas4.TextSize = 14.000
+musicbypas4.TextWrapped = true
+musicbypas4.MouseButton1Down:connect(function()
+local m = Instance.new("Hint", game.workspace)
+m.Text = "Team k00pkidd has hacked this game."
+end)
+
+musicbypas5.Name = "music bypas 5"
+musicbypas5.Parent = TextLabel_4
+musicbypas5.Active = false
+musicbypas5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+musicbypas5.BorderColor3 = Color3.fromRGB(0, 53, 11)
+musicbypas5.Position = UDim2.new(0.375999987, 0, 0, 300)
+musicbypas5.Size = UDim2.new(0, 99, 0, 39)
+musicbypas5.Font = Enum.Font.SourceSans
+musicbypas5.Text = "Your Mom Hint"
+musicbypas5.TextColor3 = Color3.fromRGB(255, 255, 255)
+musicbypas5.TextScaled = true
+musicbypas5.TextSize = 14.000
+musicbypas5.TextWrapped = true
+musicbypas5.MouseButton1Down:connect(function()
+local L = Instance.new("Hint", game.workspace)
+L.Text = "Your Mum Never Loved You"
+end)
+
+message.Name = "message"
+message.Parent = TextLabel_4
+message.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+message.BorderColor3 = Color3.fromRGB(0, 53, 11)
+message.Position = UDim2.new(0.417647123, 0, -19.5, 0)
+message.Size = UDim2.new(0, 99, 0, 39)
+message.Font = Enum.Font.SourceSans
+message.Text = "The Toxic Message"
+message.TextColor3 = Color3.fromRGB(255, 255, 255)
+message.TextScaled = true
+message.TextSize = 14.000
+message.TextWrapped = true
+message.MouseButton1Down:connect(function()
+local T = Instance.new("Message", game.workspace)
+T.Text = "Your Dad Left You and Your Mom Never Lived You!1!1!!1!1!!! ITS A TRUE STORY LOL"
+end)
+
+infYield.Name = "infYield"
+infYield.Parent = TextLabel_4
+infYield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+infYield.BorderColor3 = Color3.fromRGB(0, 53, 11)
+infYield.Position = UDim2.new(-0.223529339, 0, -19.5000019, 0)
+infYield.Size = UDim2.new(0, 99, 0, 39)
+infYield.Font = Enum.Font.SourceSans
+infYield.Text = "Nameless Admin"
+infYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+infYield.TextScaled = true
+infYield.TextSize = 14.000
+infYield.TextWrapped = true
+
+k00pk00p.Name = "k00pk00p"
+k00pk00p.Parent = TextLabel_4
+k00pk00p.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+k00pk00p.BorderColor3 = Color3.fromRGB(0, 53, 11)
+k00pk00p.Position = UDim2.new(-0.864705801, 0, -19.5000019, 0)
+k00pk00p.Size = UDim2.new(0, 99, 0, 39)
+k00pk00p.Font = Enum.Font.SourceSans
+k00pk00p.Text = "DreamBull Spam"
+k00pk00p.TextColor3 = Color3.fromRGB(255, 255, 255)
+k00pk00p.TextScaled = true
+k00pk00p.TextSize = 14.000
+k00pk00p.TextWrapped = true
+
+musicbypas6.Name = "music bypas 6"
+musicbypas6.Parent = TextLabel_4
+musicbypas6.Active = false
+musicbypas6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+musicbypas6.BorderColor3 = Color3.fromRGB(0, 53, 11)
+musicbypas6.Position = UDim2.new(0.417647153, 0, -22.7857151, 0)
+musicbypas6.Size = UDim2.new(0, 99, 0, 39)
+musicbypas6.Font = Enum.Font.SourceSans
+musicbypas6.Text = "Junpstyle"
+musicbypas6.TextColor3 = Color3.fromRGB(255, 255, 255)
+musicbypas6.TextScaled = true
+musicbypas6.TextSize = 14.000
+musicbypas6.TextWrapped = true
+
+kaax.Name = "kaax"
+kaax.Parent = TextLabel_4
+kaax.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+kaax.BorderColor3 = Color3.fromRGB(0, 53, 11)
+kaax.Position = UDim2.new(-0.223529398, 0, -22.785717, 0)
+kaax.Size = UDim2.new(0, 99, 0, 39)
+kaax.Font = Enum.Font.SourceSans
+kaax.Text = "British Rap"
+kaax.TextColor3 = Color3.fromRGB(255, 255, 255)
+kaax.TextScaled = true
+kaax.TextSize = 14.000
+kaax.TextWrapped = true
+
+gravityhammer.Name = "gravity hammer"
+gravityhammer.Parent = TextLabel_4
+gravityhammer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+gravityhammer.BorderColor3 = Color3.fromRGB(0, 53, 11)
+gravityhammer.Position = UDim2.new(-0.864705801, 0, -22.785717, 0)
+gravityhammer.Size = UDim2.new(0, 99, 0, 39)
+gravityhammer.Font = Enum.Font.SourceSans
+gravityhammer.Text = "BLYAT Audio"
+gravityhammer.TextColor3 = Color3.fromRGB(255, 255, 255)
+gravityhammer.TextScaled = true
+gravityhammer.TextSize = 14.000
+gravityhammer.TextWrapped = true
+
+Destroy.Name = "Destroy."
+Destroy.Parent = TextLabel_4
+Destroy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Destroy.BorderColor3 = Color3.fromRGB(0, 53, 11)
+Destroy.Position = UDim2.new(-0.864705861, 0, -26, 0)
+Destroy.Size = UDim2.new(0, 311, 0, 35)
+Destroy.Font = Enum.Font.SourceSans
+Destroy.Text = "n0tagui v3"
+Destroy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Destroy.TextScaled = true
+Destroy.TextSize = 14.000
+Destroy.TextWrapped = true
+Destroy.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Cn9CaAfh"))()
+end)
+
+kick.Name = "kick"
+kick.Parent = TextLabel_4
+kick.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+kick.BorderColor3 = Color3.fromRGB(0, 53, 11)
+kick.Position = UDim2.new(0.394117713, 0, -29.3571453, 0)
+kick.Size = UDim2.new(0, 99, 0, 39)
+kick.Font = Enum.Font.SourceSans
+kick.Text = "infinite yeld"
+kick.TextColor3 = Color3.fromRGB(255, 255, 255)
+kick.TextScaled = true
+kick.TextSize = 14.000
+kick.TextWrapped = true
+
+thomas.Name = "thomas"
+thomas.Parent = TextLabel_4
+thomas.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+thomas.BorderColor3 = Color3.fromRGB(0, 53, 11)
+thomas.Position = UDim2.new(-0.241176412, 0, -29.3571453, 0)
+thomas.Size = UDim2.new(0, 99, 0, 39)
+thomas.Font = Enum.Font.SourceSans
+thomas.Text = "Thomas [R6]"
+thomas.TextColor3 = Color3.fromRGB(255, 255, 255)
+thomas.TextScaled = true
+thomas.TextSize = 14.000
+thomas.TextWrapped = true
+
+theme.Name = "theme"
+theme.Parent = TextLabel_4
+theme.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+theme.BorderColor3 = Color3.fromRGB(0, 53, 11)
+theme.Position = UDim2.new(-0.970588207, 0, -50.0714264, 0)
+theme.Size = UDim2.new(0, 53, 0, 24)
+theme.Font = Enum.Font.SourceSans
+theme.Text = "n0taGui v2"
+theme.TextColor3 = Color3.fromRGB(255, 255, 255)
+theme.TextScaled = true
+theme.TextSize = 14.000
+theme.TextWrapped = true
+theme.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-n0tagui-op-16746"))()
+end)
+
+antileave.Name = "antileave"
+antileave.Parent = TextLabel_4
+antileave.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+antileave.BorderColor3 = Color3.fromRGB(0, 53, 11)
+antileave.Position = UDim2.new(-0.870588183, 0, -29.3571453, 0)
+antileave.Size = UDim2.new(0, 99, 0, 39)
+antileave.Font = Enum.Font.SourceSans
+antileave.Text = "Skrublorz DecalSpam"
+antileave.TextColor3 = Color3.fromRGB(255, 255, 255)
+antileave.TextScaled = true
+antileave.TextSize = 14.000
+antileave.TextWrapped = true
+antileave.MouseButton1Down:connect(function()
+  local ID =358313209
+function spamDecal(v)
+    if v:IsA("Part") then
+        for i=0, 5 do
+            D = Instance.new("Decal")
+            D.Name = "MYDECALHUE"
+            D.Face = i
+            D.Parent = v
+            D.Texture = ("rbxassetid://"..Id)
+        end
+    else
+        if v:IsA("Model") then
+            for a,b in pairs(v:GetChildren()) do
+                spamDecal(b)
+            end
+        end
+    end
+end
+function decalspam(id) --use this function, not the one on top
+    Id = id
+    for i,v in pairs(game.Workspace:GetChildren()) do
+        if v:IsA("Part") then
+        for i=0, 5 do
+            D = Instance.new("Decal")
+            D.Name = "MYDECALHUE"
+            D.Face = i
+            D.Parent = v
+            D.Texture = ("rbxassetid://"..id)
+        end
+    else
+        if v:IsA("Model") then
+            for a,b in pairs(v:GetChildren()) do
+                spamDecal(b)
+            end
+        end
+    end
+end
+end
+ 
+decalspam(ID)
+end)
+
+eses.Name = "eses"
+eses.Parent = TextLabel_4
+eses.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+eses.BorderColor3 = Color3.fromRGB(0, 53, 11)
+eses.Position = UDim2.new(-0.870588183, 0, -39.5714302, 0)
+eses.Size = UDim2.new(0, 99, 0, 39)
+eses.Font = Enum.Font.SourceSans
+eses.Text = "DecalSpam"
+eses.TextColor3 = Color3.fromRGB(255, 255, 255)
+eses.TextScaled = true
+eses.TextSize = 14.000
+eses.TextWrapped = true
+eses.MouseButton1Down:connect(function()
+  local ID =15705773225
+function spamDecal(v)
+    if v:IsA("Part") then
+        for i=0, 5 do
+            D = Instance.new("Decal")
+            D.Name = "MYDECALHUE"
+            D.Face = i
+            D.Parent = v
+            D.Texture = ("rbxassetid://"..Id)
+        end
+    else
+        if v:IsA("Model") then
+            for a,b in pairs(v:GetChildren()) do
+                spamDecal(b)
+            end
+        end
+    end
+end
+function decalspam(id) --use this function, not the one on top
+    Id = id
+    for i,v in pairs(game.Workspace:GetChildren()) do
+        if v:IsA("Part") then
+        for i=0, 5 do
+            D = Instance.new("Decal")
+            D.Name = "MYDECALHUE"
+            D.Face = i
+            D.Parent = v
+            D.Texture = ("rbxassetid://"..id)
+        end
+    else
+        if v:IsA("Model") then
+            for a,b in pairs(v:GetChildren()) do
+                spamDecal(b)
+            end
+        end
+    end
+end
+end
+ 
+decalspam(ID)
+end)
+
+dreemy.Name = "dreemy"
+dreemy.Parent = TextLabel_4
+dreemy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dreemy.BorderColor3 = Color3.fromRGB(0, 53, 11)
+dreemy.Position = UDim2.new(-0.224000007, 0, -16, 0)
+dreemy.Size = UDim2.new(0, 99, 0, 39)
+dreemy.Font = Enum.Font.SourceSans
+dreemy.Text = "ambatakam sky"
+dreemy.TextColor3 = Color3.fromRGB(255, 255, 255)
+dreemy.TextScaled = true
+dreemy.TextSize = 14.000
+dreemy.TextWrapped = true
+
+shamsterky.Name = "shamsterky"
+shamsterky.Parent = TextLabel_4
+shamsterky.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+shamsterky.BorderColor3 = Color3.fromRGB(0, 53, 11)
+shamsterky.Position = UDim2.new(-0.870999992, 0, -16, 0)
+shamsterky.Size = UDim2.new(0, 99, 0, 39)
+shamsterky.Font = Enum.Font.SourceSans
+shamsterky.Text = "You Are An Idiot Virus"
+shamsterky.TextColor3 = Color3.fromRGB(255, 255, 255)
+shamsterky.TextScaled = true
+shamsterky.TextSize = 14.000
+shamsterky.TextWrapped = true
+shamsterky.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/you-are-an-idiot-hahahaha-haha-25038"))()
+end)
+
+sky2.Name = "sky2"
+sky2.Parent = TextLabel_4
+sky2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sky2.BorderColor3 = Color3.fromRGB(0, 53, 11)
+sky2.Position = UDim2.new(0.0670000017, 0, -46.5, 0)
+sky2.Size = UDim2.new(0, 49, 0, 39)
+sky2.Font = Enum.Font.SourceSans
+sky2.Text = "sky 2"
+sky2.TextColor3 = Color3.fromRGB(255, 255, 255)
+sky2.TextScaled = true
+sky2.TextSize = 14.000
+sky2.TextWrapped = true
+sky2.MouseButton1Down:connect(function()
+s = Instance.new("Sky")
+s.Name = "SKY"
+s.SkyboxBk = "http://www.roblox.com/asset/?id=9698929683"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=9698929683"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=9698929683"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=9698929683"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=9698929683"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=9698929683"
+s.Parent = game.Lighting
+end)
+
+antiban.Name = "antiban"
+antiban.Parent = TextLabel_4
+antiban.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+antiban.BorderColor3 = Color3.fromRGB(0, 53, 11)
+antiban.Position = UDim2.new(-0.224000007, 0, -12.3000002, 0)
+antiban.Size = UDim2.new(0, 99, 0, 39)
+antiban.Font = Enum.Font.SourceSans
+antiban.Text = "Anti-Ban"
+antiban.TextColor3 = Color3.fromRGB(255, 255, 255)
+antiban.TextScaled = true
+antiban.TextSize = 14.000
+antiban.TextWrapped = true
+
+randcol.Name = "randcol"
+randcol.Parent = TextLabel_4
+randcol.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+randcol.BorderColor3 = Color3.fromRGB(0, 53, 11)
+randcol.Position = UDim2.new(0.418000013, 0, -12.3000002, 0)
+randcol.Size = UDim2.new(0, 99, 0, 39)
+randcol.Font = Enum.Font.SourceSans
+randcol.Text = "coloutyfy"
+randcol.TextColor3 = Color3.fromRGB(255, 255, 255)
+randcol.TextScaled = true
+randcol.TextSize = 14.000
+randcol.TextWrapped = true
+
+unanchor.Name = "unanchor"
+unanchor.Parent = TextLabel_4
+unanchor.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+unanchor.BorderColor3 = Color3.fromRGB(0, 53, 11)
+unanchor.Position = UDim2.new(-0.870588183, 0, -36.0714302, 0)
+unanchor.Size = UDim2.new(0, 99, 0, 39)
+unanchor.Font = Enum.Font.SourceSans
+unanchor.Text = "UnAnchor"
+unanchor.TextColor3 = Color3.fromRGB(255, 255, 255)
+unanchor.TextScaled = true
+unanchor.TextSize = 14.000
+unanchor.TextWrapped = true
+unanchor.MouseButton1Down:connect(function()
+		for i,v in pairs(game.Workspace:GetDescendants()) do
+			if v:IsA("BasePart") then	
+				v.Anchored = false
+			end
+		end
+	
+	
+		for i,v in pairs(game.ReplicatedStorage:GetDescendants()) do
+			if v:IsA("BasePart") then
+				v.Anchored = false
+			end
+		end
+		
+	
+		for i,v in pairs(game.ReplicatedFirst:GetDescendants()) do
+			if v:IsA("BasePart") then
+				v.Anchored = false
+			end
+		end
+	end)
+
+toad.Name = "toad"
+toad.Parent = TextLabel_4
+toad.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+toad.BorderColor3 = Color3.fromRGB(0, 53, 11)
+toad.Position = UDim2.new(0.388235331, 0, -39.5714302, 0)
+toad.Size = UDim2.new(0, 99, 0, 39)
+toad.Font = Enum.Font.SourceSans
+toad.Text = "toadroast"
+toad.TextColor3 = Color3.fromRGB(255, 255, 255)
+toad.TextScaled = true
+toad.TextSize = 14.000
+toad.TextWrapped = true
+toad.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/UgHDybKr"))()
+end)
+
+sky.Name = "sky"
+sky.Parent = TextLabel_4
+sky.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sky.BorderColor3 = Color3.fromRGB(0, 53, 11)
+sky.Position = UDim2.new(-0.241176382, 0, -46.5, 0)
+sky.Size = UDim2.new(0, 49, 0, 39)
+sky.Font = Enum.Font.SourceSans
+sky.Text = "Sky"
+sky.TextColor3 = Color3.fromRGB(255, 255, 255)
+sky.TextScaled = true
+sky.TextSize = 14.000
+sky.TextWrapped = true
+sky.MouseButton1Down:connect(function()
+s = Instance.new("Sky")
+s.Name = "SKY"
+s.SkyboxBk = "http://www.roblox.com/asset/?id=15705773225"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=15705773225"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=15705773225"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=15705773225"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=15705773225"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=15705773225"
+s.Parent = game.Lighting
+end)
+
+shut_2.Name = "shut"
+shut_2.Parent = TextLabel_4
+shut_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+shut_2.BorderColor3 = Color3.fromRGB(0, 53, 11)
+shut_2.Position = UDim2.new(-0.241176382, 0, -32.7142868, 0)
+shut_2.Size = UDim2.new(0, 99, 0, 39)
+shut_2.Font = Enum.Font.SourceSans
+shut_2.Text = "B2S gui v3 Remake"
+shut_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+shut_2.TextScaled = true
+shut_2.TextSize = 14.000
+shut_2.TextWrapped = true
+shut_2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-b2s-gui-v3-remake-by-me-30617"))()
+end)
+
+realm.Name = "realm"
+realm.Parent = TextLabel_4
+realm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+realm.BorderColor3 = Color3.fromRGB(0, 53, 11)
+realm.Position = UDim2.new(-0.241176382, 0, -39.5714264, 0)
+realm.Size = UDim2.new(0, 99, 0, 39)
+realm.Font = Enum.Font.SourceSans
+realm.Text = "Message"
+realm.TextColor3 = Color3.fromRGB(255, 255, 255)
+realm.TextScaled = true
+realm.TextSize = 14.000
+realm.TextWrapped = true
+realm.MouseButton1Down:connect(function()
+local k = Instance.new("Message", game.workspace)
+k.Text = "Team k00pkidd join today!"
+end)
+
+rain.Name = "rain"
+rain.Parent = TextLabel_4
+rain.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+rain.BorderColor3 = Color3.fromRGB(0, 53, 11)
+rain.Position = UDim2.new(-0.864705801, 0, -32.7142868, 0)
+rain.Size = UDim2.new(0, 99, 0, 39)
+rain.Font = Enum.Font.SourceSans
+rain.Text = "raining fire"
+rain.TextColor3 = Color3.fromRGB(255, 255, 255)
+rain.TextScaled = true
+rain.TextSize = 14.000
+rain.TextWrapped = true
+
+r6.Name = "r6"
+r6.Parent = TextLabel_4
+r6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+r6.BorderColor3 = Color3.fromRGB(0, 53, 11)
+r6.Position = UDim2.new(-0.970588207, 0, -52.4285736, 0)
+r6.Size = UDim2.new(0, 53, 0, 24)
+r6.Font = Enum.Font.SourceSans
+r6.Text = "k00pgui v8"
+r6.TextColor3 = Color3.fromRGB(255, 255, 255)
+r6.TextScaled = true
+r6.TextSize = 14.000
+r6.TextWrapped = true
+r6.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-K00pgui-v8-11511"))()
+end)
+
+parts.Name = "parts"
+parts.Parent = TextLabel_4
+parts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+parts.BorderColor3 = Color3.fromRGB(0, 53, 11)
+parts.Position = UDim2.new(-0.864705801, 0, -43, 0)
+parts.Size = UDim2.new(0, 99, 0, 39)
+parts.Font = Enum.Font.SourceSans
+parts.Text = "particals 1"
+parts.TextColor3 = Color3.fromRGB(255, 255, 255)
+parts.TextScaled = true
+parts.TextSize = 14.000
+parts.TextWrapped = true
+parts.MouseButton1Down:connect(function()
+		for i, v in pairs(game.Players:GetChildren()) do
+			emit = Instance.new("ParticleEmitter")
+			emit.Parent = v.Character.Head
+			emit.Texture = "http://www.roblox.com/asset/?id=9698929683"
+			emit.VelocitySpread = 358313209
+		end
+	end)
+
+shed.Name = "shed"
+shed.Parent = TextLabel_4
+shed.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+shed.BorderColor3 = Color3.fromRGB(0, 53, 11)
+shed.Position = UDim2.new(0.418000013, 0, -16, 0)
+shed.Size = UDim2.new(0, 99, 0, 39)
+shed.Font = Enum.Font.SourceSans
+shed.Text = "Shedletsky Spam"
+shed.TextColor3 = Color3.fromRGB(255, 255, 255)
+shed.TextScaled = true
+shed.TextSize = 14.000
+shed.TextWrapped = true
+
+john.Name = "john"
+john.Parent = TextLabel_4
+john.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+john.BorderColor3 = Color3.fromRGB(0, 53, 11)
+john.Position = UDim2.new(-0.870999992, 0, -12.3000002, 0)
+john.Size = UDim2.new(0, 99, 0, 39)
+john.Font = Enum.Font.SourceSans
+john.Text = "John Doe [R6]"
+john.TextColor3 = Color3.fromRGB(255, 255, 255)
+john.TextScaled = true
+john.TextSize = 14.000
+john.TextWrapped = true
+
+kill.Name = "kill"
+kill.Parent = TextLabel_4
+kill.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+kill.BorderColor3 = Color3.fromRGB(0, 53, 11)
+kill.Position = UDim2.new(0.388235331, 0, -36.0714302, 0)
+kill.Size = UDim2.new(0, 99, 0, 39)
+kill.Font = Enum.Font.SourceSans
+kill.Text = "n0taGui v7 Edited"
+kill.TextColor3 = Color3.fromRGB(255, 255, 255)
+kill.TextScaled = true
+kill.TextSize = 14.000
+kill.TextWrapped = true
+kill.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pedroluckygod/Yes/main/notaguiv7.txt"))()
+end)
+
+jump.Name = "jump"
+jump.Parent = TextLabel_4
+jump.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+jump.BorderColor3 = Color3.fromRGB(0, 53, 11)
+jump.Position = UDim2.new(0.394117713, 0, -43, 0)
+jump.Size = UDim2.new(0, 99, 0, 39)
+jump.Font = Enum.Font.SourceSans
+jump.Text = "JumpScare"
+jump.TextColor3 = Color3.fromRGB(255, 255, 255)
+jump.TextScaled = true
+jump.TextSize = 14.000
+jump.TextWrapped = true
+
+hint.Name = "hint"
+hint.Parent = TextLabel_4
+hint.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+hint.BorderColor3 = Color3.fromRGB(0, 53, 11)
+hint.Position = UDim2.new(0.394117713, 0, -46.5, 0)
+hint.Size = UDim2.new(0, 99, 0, 39)
+hint.Font = Enum.Font.SourceSans
+hint.Text = "Hint"
+hint.TextColor3 = Color3.fromRGB(255, 255, 255)
+hint.TextScaled = true
+hint.TextSize = 14.000
+hint.TextWrapped = true
+hint.MouseButton1Down:connect(function()
+local N = Instance.new("Hint", game.workspace)
+N.Text = "k00pkidd was here!!1!1!1!!!"
+end)
+
+exploudh.Name = "exploudh"
+exploudh.Parent = TextLabel_4
+exploudh.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+exploudh.BorderColor3 = Color3.fromRGB(0, 53, 11)
+exploudh.Position = UDim2.new(-0.247058764, 0, -36.0714302, 0)
+exploudh.Size = UDim2.new(0, 99, 0, 39)
+exploudh.Font = Enum.Font.SourceSans
+exploudh.Text = "Nameless Admin"
+exploudh.TextColor3 = Color3.fromRGB(255, 255, 255)
+exploudh.TextScaled = true
+exploudh.TextSize = 14.000
+exploudh.TextWrapped = true
+exploudh.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+end)
+
+disco.Name = "disco"
+disco.Parent = TextLabel_4
+disco.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+disco.BorderColor3 = Color3.fromRGB(0, 53, 11)
+disco.Position = UDim2.new(0.394117713, 0, -32.7142868, 0)
+disco.Size = UDim2.new(0, 99, 0, 39)
+disco.Font = Enum.Font.SourceSans
+disco.Text = "disco"
+disco.TextColor3 = Color3.fromRGB(255, 255, 255)
+disco.TextScaled = true
+disco.TextSize = 14.000
+disco.TextWrapped = true
+
+decal.Name = "decal"
+decal.Parent = TextLabel_4
+decal.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+decal.BorderColor3 = Color3.fromRGB(0, 53, 11)
+decal.Position = UDim2.new(-0.864705801, 0, -46.5, 0)
+decal.Size = UDim2.new(0, 99, 0, 39)
+decal.Font = Enum.Font.SourceSans
+decal.Text = "particals 2"
+decal.TextColor3 = Color3.fromRGB(255, 255, 255)
+decal.TextScaled = true
+decal.TextSize = 14.000
+decal.TextWrapped = true
+decal.MouseButton1Down:connect(function()
+		for i, v in pairs(game.Players:GetChildren()) do
+			emit = Instance.new("ParticleEmitter")
+			emit.Parent = v.Character.Head
+			emit.Texture = "http://www.roblox.com/asset/?id=15705773225"
+			emit.VelocitySpread = 358313209
+		end
+	end)
+
+_666.Name = "666"
+_666.Parent = TextLabel_4
+_666.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_666.BorderColor3 = Color3.fromRGB(0, 53, 11)
+_666.Position = UDim2.new(-0.241176382, 0, -43, 0)
+_666.Size = UDim2.new(0, 99, 0, 39)
+_666.Font = Enum.Font.SourceSans
+_666.Text = "g00bygui v7"
+_666.TextColor3 = Color3.fromRGB(255, 255, 255)
+_666.TextScaled = true
+_666.TextSize = 14.000
+_666.TextWrapped = true
+
+kooprain.Name = "kooprain"
+kooprain.Parent = TextLabel_4
+kooprain.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+kooprain.BorderColor3 = Color3.fromRGB(0, 53, 11)
+kooprain.Position = UDim2.new(0.418000013, 0, -1.5, 0)
+kooprain.Size = UDim2.new(0, 99, 0, 39)
+kooprain.Font = Enum.Font.SourceSans
+kooprain.Text = "k00pgui fanmade"
+kooprain.TextColor3 = Color3.fromRGB(255, 255, 255)
+kooprain.TextScaled = true
+kooprain.TextSize = 14.000
+kooprain.TextWrapped = true
+kooprain.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-k00pgui-fanmade-14188"))()
+end)
+
+xray.Name = "xray"
+xray.Parent = TextLabel_4
+xray.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+xray.BorderColor3 = Color3.fromRGB(0, 53, 11)
+xray.Position = UDim2.new(-0.870999992, 0, 0, 27)
+xray.Size = UDim2.new(0, 99, 0, 39)
+xray.Font = Enum.Font.SourceSans
+xray.Text = "c00lgui by 007n7"
+xray.TextColor3 = Color3.fromRGB(255, 255, 255)
+xray.TextScaled = true
+xray.TextSize = 14.000
+xray.TextWrapped = true
+
+spin.Name = "spin"
+spin.Parent = TextLabel_4
+spin.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+spin.BorderColor3 = Color3.fromRGB(0, 53, 11)
+spin.Position = UDim2.new(-0.224000007, 0, 0, 26)
+spin.Size = UDim2.new(0, 99, 0, 39)
+spin.Font = Enum.Font.SourceSans
+spin.Text = "OG c00lgui"
+spin.TextColor3 = Color3.fromRGB(255, 255, 255)
+spin.TextScaled = true
+spin.TextSize = 14.000
+spin.TextWrapped = true
+
+looped.Name = "looped"
+looped.Parent = TextLabel_4
+looped.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+looped.BorderColor3 = Color3.fromRGB(0, 53, 11)
+looped.Position = UDim2.new(0.418000013, 0, 0, 26)
+looped.Size = UDim2.new(0, 99, 0, 39)
+looped.Font = Enum.Font.SourceSans
+looped.Text = "c00lgui v1.1"
+looped.TextColor3 = Color3.fromRGB(255, 255, 255)
+looped.TextScaled = true
+looped.TextSize = 14.000
+looped.TextWrapped = true
+
+coffee.Name = "coffee"
+coffee.Parent = TextLabel_4
+coffee.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+coffee.BorderColor3 = Color3.fromRGB(0, 53, 11)
+coffee.Position = UDim2.new(-0.200000003, 0, 0, 75)
+coffee.Size = UDim2.new(0, 199, 0, 39)
+coffee.Font = Enum.Font.SourceSans
+coffee.Text = "c00lgui by v3rx"
+coffee.TextColor3 = Color3.fromRGB(255, 255, 255)
+coffee.TextScaled = true
+coffee.TextSize = 14.000
+coffee.TextWrapped = true
+
+avatar.Name = "avatar"
+avatar.Parent = TextLabel_4
+avatar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+avatar.BorderColor3 = Color3.fromRGB(0, 53, 11)
+avatar.Position = UDim2.new(-0.870999992, 0, 0, 75)
+avatar.Size = UDim2.new(0, 99, 0, 39)
+avatar.Font = Enum.Font.SourceSans
+avatar.Text = "Smile Sky"
+avatar.TextColor3 = Color3.fromRGB(255, 255, 255)
+avatar.TextScaled = true
+avatar.TextSize = 14.000
+avatar.TextWrapped = true
+
+stop.Name = "stop"
+stop.Parent = TextLabel_4
+stop.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+stop.BorderColor3 = Color3.fromRGB(0, 53, 11)
+stop.Position = UDim2.new(-0.875, 0, 14, 0)
+stop.Size = UDim2.new(0, 79, 0, 29)
+stop.Font = Enum.Font.SourceSans
+stop.Text = "retrofy"
+stop.TextColor3 = Color3.fromRGB(255, 255, 255)
+stop.TextScaled = true
+stop.TextSize = 14.000
+stop.TextWrapped = true
+
+distort.Name = "distort"
+distort.Parent = TextLabel_4
+distort.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+distort.BorderColor3 = Color3.fromRGB(0, 53, 11)
+distort.Position = UDim2.new(0.600000024, 0, 14.5, 0)
+distort.Size = UDim2.new(0, 79, 0, 26)
+distort.Font = Enum.Font.SourceSans
+distort.Text = "g00byGui v8"
+distort.TextColor3 = Color3.fromRGB(255, 255, 255)
+distort.TextScaled = true
+distort.TextSize = 14.000
+distort.TextWrapped = true
+distort.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-G00by-GUI-v8-10301"))()
+end)
+
+reverb.Name = "reverb"
+reverb.Parent = TextLabel_4
+reverb.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+reverb.BorderColor3 = Color3.fromRGB(0, 53, 11)
+reverb.Position = UDim2.new(0.620000005, 0, 12, 0)
+reverb.Size = UDim2.new(0, 79, 0, 26)
+reverb.Font = Enum.Font.SourceSans
+reverb.Text = "c00lgui v2.1 by LordMuhamad"
+reverb.TextColor3 = Color3.fromRGB(255, 255, 255)
+reverb.TextScaled = true
+reverb.TextSize = 14.000
+reverb.TextWrapped = true
+reverb.MouseButton1Down:connect(function()
+loadstring(game:GetObjects("rbxassetid://9827584846")[1].Source)()
+end)
+
+TextLabel_5.Parent = TextLabel_4
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(-1.00999999, 0, 36, 0)
+TextLabel_5.Size = UDim2.new(0, 85, 0, 27)
+TextLabel_5.Font = Enum.Font.Arial
+TextLabel_5.Text = "by GoodRc1 & Tr0phykidd"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 10.000
+TextLabel_5.TextWrapped = true
+
+-- Scripts :
+
+local function QFCS_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(QFCS_fake_script)()
